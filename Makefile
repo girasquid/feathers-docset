@@ -1,4 +1,5 @@
 all: docset
+	tar --exclude '.DS_Store' -czvf docset.tgz feathers.docset/
 	open feathers.docset/
 
 docset: feathersui.com
