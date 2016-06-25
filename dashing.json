@@ -1,0 +1,43 @@
+{
+    "name": "Feathers",
+    "package": "feathers",
+    "index": "class-summary.html",
+    "selectors": {
+        "#subTitle": {
+          "matchpath": "package-detail\\.html",
+          "type": "Package"
+        },
+        "#titleTable #subTitle": {
+          "matchpath": "\/([A-Z]).+.html",
+          "type": "Class"
+        },
+        "title": {
+          "matchpath": "\/([A-Z]).+.html",
+          "type": "Class"
+        },
+        "#summaryTableMethod tr:nth-child(2) .summarySignature a.signatureLink": {
+            "matchpath": "\/([A-Z]).+.html",
+            "type": "Constructor"
+        },
+        "#summaryTableMethod .summarySignature a.signatureLink": {
+            "matchpath": "\/([A-Z]).+.html",
+            "type": "Method"
+        },
+        "#summaryTableEvent .summarySignature a.signatureLink": {
+            "matchpath": "\/([A-Z]).+.html",
+            "type": "Event"
+        },
+        "#summaryTableProperty .summaryTableSignatureCol a.signatureLink": {
+            "matchpath": "\/([A-Z]).+.html",
+            "type": "Property"
+        },
+        "#summaryTableConstant .summaryTableSignatureCol a.signatureLink": {
+            "matchpath": "\/([A-Z]).+.html",
+            "type": "Constant"
+        }
+    },
+    "ignore": [],
+    "icon32x32": "",
+    "allowJS": false,
+    "ExternalURL": "http://feathersui.com/api-reference/"
+}
