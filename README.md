@@ -4,7 +4,7 @@ A [Feathers](http://feathersui.com/) docset generator for [Dash](http://kapeli.c
 
 # Usage
 
-Install into dash by pasting `dash-feed://https%3A%2F%2Fgithub.com%2Fgirasquid%2Ffeathers-docset%2Fraw%2Fmaster%2Fdocset.xml` into Safari's URL bar.
+Install into dash by pasting `dash-feed://https%3A%2F%2Fgithub.com%2Fgirasquid%2Ffeathers-docset%2Fraw%2Fmaster%2Ffeathers.xml` into Safari's URL bar.
 
 Or compile it yourself:
 ```bash
